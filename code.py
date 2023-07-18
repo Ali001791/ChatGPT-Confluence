@@ -12,9 +12,9 @@ nltk.download('averaged_perceptron_tagger')
 
 tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
-CONFLUENCE_URL = 'https://manucommerce.atlassian.net/'
+CONFLUENCE_URL = 'https://zerowing.atlassian.net/'
 CONFLUENCE_SPACE = 'Recipes'
-CONFLUENCE_USER = "manu.commerce@gmail.com"
+CONFLUENCE_USER = "zerowing@gmail.com"
 CONFLUENCE_PASSWORD = 'API_Key_For_Confluence'
 OPENAI_API_KEY =  'OPENAI_API_KEY'
 EMBEDDING_MODEL = 'text-search-ada-doc-001'
